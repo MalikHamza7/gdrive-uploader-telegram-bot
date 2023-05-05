@@ -3,14 +3,14 @@ import os
 class Config:
   ENV = bool(os.environ.get('ENV', False))
   if ENV:
-    BOT_TOKEN = os.environ.get('5245975980:AAHQceQqOkANG32wm8-NAho8pF-O80QhVC0')
+    BOT_TOKEN = os.environ.get('5245975980:AAFxmsmgIMLNmWsfVY-ah92MdhG7sAFkiGs')
     APP_ID = os.environ.get('4780619')
     API_HASH = os.environ.get('bef269288c68a0c3fe2460805faca749')
     DATABASE_URL = os.environ.get('postgres://mdvgqgverqgesc:263a6b5b49f8539c4b1bb106ff7b300e5b5ebb3b46c3314fc57e8da9865c6457@ec2-34-192-122-0.compute-1.amazonaws.com:5432/d6c18273hu4a0r')
   else:
-    BOT_TOKEN = '1394534244:AAHbVTthzn1sNbclrt9lyrrSt_Msvz46jWA' # Get it from https://t.me/BotFather
-    APP_ID = '1680362' # Get it from my.telegram.org/apps
-    API_HASH = '8cebfa99b9719c28a5e16fedaa0eeaad' # Get it from my.telegram.org/apps
+    BOT_TOKEN = '5245975980:AAFxmsmgIMLNmWsfVY-ah92MdhG7sAFkiGs' # Get it from https://t.me/BotFather
+    APP_ID = '4780619' # Get it from my.telegram.org/apps
+    API_HASH = 'bef269288c68a0c3fe2460805faca749' # Get it from my.telegram.org/apps
     DATABASE_URL = 'postgres://mdvgqgverqgesc:263a6b5b49f8539c4b1bb106ff7b300e5b5ebb3b46c3314fc57e8da9865c6457@ec2-34-192-122-0.compute-1.amazonaws.com:5432/d6c18273hu4a0r' # SQL Database URL / Heroku Postgres URL
 
 
